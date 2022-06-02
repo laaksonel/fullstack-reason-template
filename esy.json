@@ -17,6 +17,7 @@
     "pnp": false
   },
   "scripts": {
-    "start": "dune exec --root . server/server.exe"
+    "start": "dune exec --root . server/server.exe",
+    "clean": "dune clean"
   }
 }
