@@ -1,26 +1,29 @@
 # Template for fullstack Reason (Melange)
 
 ## Build
+Install dependencies
+```bash
+esy
+```
+
 Build frontend
 ```bash
-npm install
-npm run build
+esy client:build
 ```
 
 Build backend
 ```bash
-esy
-esy build
+esy server:build
 ```
 
 ## Run
 
 Backend
 ```bash
-esy start
+esy server:start
 ```
 
 Frontend
 ```bash
-npm start
+npm client:start
 ```
