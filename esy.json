@@ -3,7 +3,7 @@
   "dependencies": {
     "ocaml": "4.14.0",
     "@opam/reason": "3.8.0",
-    "melange": "melange-re/melange#57faf26",
+    "melange": "melange-re/melange#b04617b360a18a37a963ce0b012a238fb84b26f8",
     "@opam/cmdliner": "1.1.0"
   },
   "devDependencies": {
