@@ -1,11 +1,12 @@
 {
-  "name": "fullstack-melange",
-  "bs-dependencies": [],
+  "name": "fullstack-reason-template",
+  "bs-dependencies": ["reason-react"],
   "suffix": ".bs.js",
   "sources": [
     "common",
     "client"
   ],
+  "reason": { "react-jsx": 3 },
   "package-specs": [{
     "in-source": true,
     "module": "commonjs"
