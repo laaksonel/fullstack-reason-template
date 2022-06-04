@@ -3,7 +3,7 @@
 ## Build
 Install dependencies
 ```bash
-esy
+npm i
 ```
 
 Build frontend
@@ -16,14 +16,13 @@ Build backend
 esy server:build
 ```
 
-## Run
+## Client development server
 
-Backend
+Launch webpack dev server
 ```bash
-esy server:start
+npm run serve
 ```
 
-Frontend
-```bash
-npm client:start
-```
+This will additionally launch Melange compiler in watchmode (`esy mel build -w`) and redirects the output of the compiler to stdout.
+When a Reason file is changed, it will be automatically compiled to js file which is then served Webpack dev server.
+Each change will automatically reload browser so you can see the changes immediately.
