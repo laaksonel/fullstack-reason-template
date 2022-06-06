@@ -1,9 +1,7 @@
 {
-  "name": "my-webpack-project",
+  "name": "fullstack-reason-template",
   "dependencies": {
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "reason-react": ">=0.7.1"
+    "@rescript/react": "^0.10.3"
   },
   "devDependencies": {
     "@webpack-cli/generators": "^2.4.2",
@@ -17,6 +15,5 @@
     "watch": "webpack --watch",
     "serve": "webpack serve"
   },
-  "version": "1.0.0",
-  "description": "My webpack project"
+  "version": "1.0.0"
 }
